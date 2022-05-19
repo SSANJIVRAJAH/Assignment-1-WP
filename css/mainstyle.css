@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    background-color: #E07A5F;
+}
+
+/* ---NAVBAR START--- */
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#title-nav{
+    text-decoration: none;
+    color: black;
+}
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #f4f1de;
+    color: black;
+}
+
+.title{
+    font-size: 3rem;
+    margin-right: auto;
+}
+
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    font-size: 18px;
+}
+
+.navigation-menu li:hover{
+    background-color: lightskyblue;
+    border-radius: 6px;
+    padding: 5px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.navigation-menu li{
+    padding: 3px 1px;
+}
+
+/* For the list shape beside it */
+
+.navbar-type{
+    list-style: none;
+}
+
+.navbar-link{
+    color: black;
+    text-decoration: none;
+}
+.navbar-link:hover{
+    color: black;
+    text-decoration: none;
+    cursor:wait;
+}
+
+/* ---NAVBAR END--- */
+
+/* First part of the section/website */
+#doraemon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:340px;
+}
+
+#welcome{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+/* First Section Close--- */
+
+.container1{
+    color: black;
+    background-color: #E07A5F;
+    padding: 90px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.container2{
+    text-align: center;
+    line-height: 1.6;
+    background-color: #3D405B;
+    color: white;
+    display: block;
+    padding: 50px;
+}
+
+#intro{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container-list{
+    background-color: #81B29A;
+    text-align: center;
+    padding: 50px;
+}
+
+.hobby{
+    margin: auto;
+    display: table;
+    list-style-type: square;
+}
+
+.top-subjects{
+    margin: auto;
+    display: table;
+    list-style-type: upper-roman;
+}
+
+#top{
+    border-top: 1px dashed black ;
+}
+
+footer{
+    background-color: #F2CC8F;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
+
+.nav-bottom{
+    display:inline-block;
+    width:100%;
+    position:relative;
+    margin-left:auto;
+    margin-top:auto;
+}
+
+.navbar-footer{
+    display:inline-block;
+    white-space:nowrap;
+    margin-right:auto;
+    margin-left:auto;
+    padding:20px;
+}
+
+#footer-title{
+    text-decoration: underline;
+}
+
+.container-dual-div{
+    padding: 50px;
+    text-align: left;
+    background-color:#81B29A ;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.dual-div-1{
+    width: 50%;
+}
+
+.dual-div-2{
+    flex-grow: 1;
+}
+
+.hobby-subjects{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.listing{
+    margin:10px;
+}
+
+.botlinks{
+    background-color: #E07A5F;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.botlinks:hover{
+    background-color: #f4f1de; ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

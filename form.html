@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="icon" href="images/Doraemon2.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -71,15 +72,15 @@
                             <label for="gender">Gender</label>
                         </th>
                         <td>
-                            <input type="radio" name="gender" id="male">
+                            <input class="radios" type="radio" name="gender" id="male">
                             <label for="male">
                                 Male
                             </label>
-                            <input type="radio" name="gender" id="female">
+                            <input class="radios" type="radio" name="gender" id="female">
                             <label for="female">
                                 Female
                             </label>
-                            <input type="radio" name="gender" id="not-say" checked>
+                            <input class="radios" type="radio" name="gender" id="not-say" checked>
                             <label for="not-say">
                                 Rather Not Say
                             </label>
@@ -115,7 +116,7 @@
                             </label>
                         </th>
                         <td>
-                            <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+                            <textarea name="notes" id="notes" cols="30" rows="10" placeholder="Please insert some text here..."></textarea>
                         </td>
                     </tr>
                     <tr>
@@ -144,12 +145,12 @@
         <nav class="nav-bottom">
             <ul>
                 <li class="navbar-footer">
-                    <a href="book-order.html">
+                    <a class="botlinks" href="book-order.html">
                         Book Ordering System
                     </a>
                 </li>
                 <li class="navbar-footer">
-                    <a href="index.html">
+                    <a class="botlinks" href="form.html">
                         Student Detail Form
                     </a>
                 </li>

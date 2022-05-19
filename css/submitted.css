@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    background-color: #E07A5F;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* ---NAVBAR START--- */
+
+#title-nav{
+    text-decoration: none;
+    color: black;
+}
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #f4f1de;
+    color: black;
+}
+
+.title{
+    font-size: 3rem;
+    margin-right: auto;
+}
+
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    font-size: 18px;
+}
+
+.navigation-menu li:hover{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.navigation-menu li{
+    padding: 3px 1px;
+}
+
+/* For the list shape beside it */
+
+.navbar-type{
+    list-style: none;
+}
+
+.navbar-link{
+    color: black;
+    text-decoration: none;
+}
+.navbar-link:hover{
+    color: black;
+    text-decoration: none;
+    cursor:wait;
+}
+
+/* ---NAVBAR END--- */
+footer{
+    background-color: #F2CC8F;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
+
+.nav-bottom{
+    display:inline-block;
+    width:100%;
+    position:relative;
+    margin-left:auto;
+    margin-top:auto;
+}
+
+.navbar-footer{
+    display:inline-block;
+    white-space:nowrap;
+    margin-right:auto;
+    margin-left:auto;
+    padding:20px;
+}
+
+#footer-title{
+    text-decoration: underline;
+}
+
+/* First part of the section/website */
+#doraemon{
+    display: block;
+    margin: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    width:340px;
+}
+
+#welcome{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#details{
+    margin: 30px;
+}
+/* First Section Close--- */
+
+#return{
+    color: black;
+}
+
+.container1{
+    margin-top: 90px;
+    padding: 60px;
+    margin-bottom: 50px;
+}
+
+.botlinks{
+    background-color: #E07A5F;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.botlinks:hover{
+    background-color: #f4f1de; ;
+}
